@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Play list Nancy</title>
+	<!--<link rel="stylesheet" type="text/css" href="css/css.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div class="container">
+		<center>
+		
+				<h1 class="text-secondary"> BUSCAR MÚSICA POR ARTISTA</h1>
+		
+
+
+		</center>
+		
+		<div class="form-group row">
+		    <audio id="audio"></audio>
+		      <div class="col-10">
+		      	<input type="email" class="form-control" id="inputBusqueda" placeholder="ARTISTA" id="idbuscarArtista">
+		      </div>
+		      <div class="col-2">
+		      	<button type="button" class="btn btn-secondary" id="buscar" onclick="buscar()">BUSCAR</button>
+		      </div>
+		    
+	  </div>
+
+		
+
+		<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">NOMBRE</th>
+      <th scope="col">TÍTULO</th>
+      <th scope="col">IMAGEN</th>
+      <th scope="col">MUSICAS</th>
+    </tr>
+  </thead>
+  <tbody id="table_mostrar">
+  	
+  </tbody>
+</table>
+
+
+		
+	</div>
+ 
+	<!-- <script src="./mp3.js"></script> -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/consumoapi.js"></script>
+	
+</body>
+</html>
